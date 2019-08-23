@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Butterfly Game</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>CATCH THE BUTTERFLY!</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <div id="points">
+                <p id="results">Points: </p>
+            </div>
+            <div id="main_button">
+                <input type="button" value="Start game" id="start_button" onclick="start()" />
+            </div>
+            <div id="mistakes">
+                <img src="img/cross.jpg" class="cross" id="mistake1" alt="Mistake" />
+                <img src="img/cross.jpg" class="cross" id="mistake2" alt="Mistake" />
+                <img src="img/cross.jpg" class="cross" id="mistake3" alt="Mistake" />
+            </div>
+            <div style="clear:both;"></div>
+        </section>
+
+        <section>
+            <div id="container">
+                <div id="butterflies"></div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
